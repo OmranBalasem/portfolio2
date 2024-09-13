@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>meta blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="technology.css"
+    />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav>
+      <div class="adress">
+        <i class="fab fa-instagram"> </i>
+        <p>meta<span>Blog</span></p>
+      </div>
+      <span class="toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="menu" id="menu">
+        <ul class="js">
+          <span class="close">X</span>
+          <li>
+            <a href=""
+              >HOME
+              <i class="fas fa-globe-asia fa-3x" style="font-size: 10px"></i
+            ></a>
+            <ul class="menu-theme">
+              <li>about</li>
+              <li>technology</li>
+            </ul>
+          </li>
+
+          <li>
+            <a href=""
+              >Blog
+              <i class="fas fa-globe-asia fa-3x" style="font-size: 10px"></i
+            ></a>
+            <ul class="menu-theme">
+              <li>about</li>
+              <li>technology</li>
+            </ul>
+          </li>
+
+          <li><a href="">Single post</a></li>
+
+          <li>
+            <a href=""
+              >pages
+              <i class="fas fa-globe-asia fa-3x" style="font-size: 10px"></i
+            ></a>
+            <ul class="menu-theme">
+              <li>about</li>
+              <li>technology</li>
+            </ul>
+          </li>
+          <li><a href="">contact</a></li>
+        </ul>
+        <div class="all">
+          <div class="contaner">
+            <div class="toggle">
+              <input type="checkbox" id="dark-mode-toggle" />
+              <label for="dark-mode-toggle">
+                <img
+                  src="./images/download.jpeg"
+                  alt="sun icon"
+                  class="icon sun"
+                />
+                <img
+                  src="./images/OIP (26).jpeg"
+                  alt="moon icon"
+                  class="icon moon"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="app">
+            <div class="search-container">
+              <!-- <button id="search-icon" class="search-icon"></button> -->
+              <i
+                class="fa fa-search"
+                id="fa fa-search"
+                style="font-size: 40px"
+              ></i>
+            </div>
+          </div>
+          <div class="subscribe">
+            <div class="subscription-container">
+              <i
+                class="fa fa-envelope-square"
+                id="fa fa-envelope-square"
+                style="font-size: 40px"
+              ></i>
+            </div>
+          </div>
+          <div id="search-bar" class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <button id="close-search" class="close-search">✖</button>
+          </div>
+          <div id="subscribe-form" class="subscribe-form">
+            <form>
+              <h2>Subscribe</h2>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+              <button type="submit">Subscribe</button>
+              <button id="close-subscribe" class="close-subscribe">✖</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav  -->
+
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="picture">
+          <div class="main">
+            <img src="images/OIP (8).jpeg" alt="" />
+            <div class="content">
+              <button class="button">technology</button>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                ratione iure eaque unde praesentium vitae. Ipsam totam cum aut
+                ea deserunt magnam tenetur.
+              </p>
+            </div>
+          </div>
+
+          <div class="pic">
+            <img src="images/OIP (21).jpeg" alt="" />
+            <div class="content">
+              <button>technology</button>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+            </div>
+          </div>
+          <div class="pic-2">
+            <img src="images/OIP (13).jpeg" alt="" />
+            <div class="content">
+              <button>technology</button>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+            </div>
+          </div>
+          <div class="pic-3">
+            <img src="images/OIP (9).jpeg" alt="" />
+            <div class="content">
+              <button>technology</button>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+            </div>
+          </div>
+          <div class="pic-4">
+            <img src="images/OIP (6).jpeg" alt="" />
+            <div class="content">
+              <button>technology</button>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tags container">
+        <div class="tag">
+          <h2>most search tags :</h2>
+          <ul>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+            <li><a href="#">kayword</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start trend  -->
+    <section class="treading container">
+      <h1>Trending</h1>
+      <button class="btn">view All post</button>
+      <div class="treand">
+        <div class="treand-viw">
+          <img src="images/OIP (8).jpeg" alt="" />
+          <div class="cont">
+            <button class="button">technology</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+          </div>
+        </div>
+        <div class="treand-viw">
+          <img src="images/OIP (21).jpeg" alt="" />
+          <div class="cont">
+            <button>technology</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+          </div>
+        </div>
+        <div class="treand-viw">
+          <img src="images/OIP (13).jpeg" alt="" />
+          <div class="cont">
+            <button>technology</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+          </div>
+        </div>
+        <div class="treand-viw">
+          <img src="images/OIP (9).jpeg" alt="" />
+          <div class="cont">
+            <button>technology</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end trend  -->
+
+    <!-- start  editor -->
+    <section class="editor container">
+      <h1>Edetor pick</h1>
+      <button class="btn">view All post</button>
+      <div class="editor-pick">
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (14).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (18).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (16).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (14).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (18).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+        <div class="edt">
+          <div class="igp">
+            <img src="images/OIP (16).jpeg" alt="" />
+          </div>
+          <div class="editor-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded how
+              tolearn valgre
+            </p>
+            <span> 10 feb 2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end teditor -->
+    <!-- start sector -->
+    <section class="sector container">
+      <div class="app-One">
+        <h1>Weekly Best</h1>
+        <button class="btn">view All post</button>
+        <div class="io">
+          <img src="images/OIP (20).jpeg" alt="" />
+        </div>
+        <div class="sec-One">
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (14).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (17).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (18).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (19).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (20).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+          <div class="sec">
+            <div class="igp">
+              <img src="images/OIP (21).jpeg" alt="" />
+            </div>
+            <div class="contener">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                how tolearn valgre
+              </p>
+              <span> 10 feb 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="place">
+          <div class="con">
+            <h5>Advertisement</h5>
+            <p>You can place ads</p>
+            <span>750x100</span>
+          </div>
+        </div>
+        <div class="app-One">
+          <h1>Weekly Best</h1>
+          <button class="btn">view All post</button>
+          <div class="leo">
+            <div>
+              <img src="images/OIP (15).jpeg" alt="" />
+            </div>
+            <div>
+              <img src="images/OIP (20).jpeg" alt="" />
+            </div>
+          </div>
+          <div class="sec-One">
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (3).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (4).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (5).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (6).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (7).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (8).jpeg" alt="" />
+              </div>
+              <div class="contener">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.juded
+                  how tolearn valgre
+                </p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="place">
+            <div class="con">
+              <h5>Advertisement</h5>
+              <p>You can place ads</p>
+              <span>750x100</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-Two" id="app-Two">
+        <div class="sec-Two">
+          <div>
+            <h1>papular past</h1>
+          </div>
+          <div class="sec-cont">
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (18).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (19).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur apis</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (20).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (21).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (8).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur adipis</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="igp">
+                <img src="images/OIP (9).jpeg" alt="" />
+              </div>
+              <div class="le">
+                <p>Lorem ipsum dolor sit, amet consectetur</p>
+                <span> 10 feb 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="category-1">
+          <h1>category</h1>
+          <li>
+            <p>technology</p>
+            <button class="type">50</button>
+          </li>
+          <li>
+            <p>lifestyle</p>
+            <button class="type">50</button>
+          </li>
+          <li>
+            <p>photography</p>
+            <button class="type">50</button>
+          </li>
+          <li>
+            <p>helth & fitness</p>
+            <button class="type">50</button>
+          </li>
+          <li>
+            <p>business</p>
+            <button class="type">50</button>
+          </li>
+          <li>
+            <p>marketing</p>
+            <button class="type">50</button>
+          </li>
+        </ul>
+        <div class="place">
+          <div class="con">
+            <h5>Advertisement</h5>
+            <p>You can place ads</p>
+            <span>750x100</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start sector -->
+    <section></section>
+    <!-- footer section start -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>meta<span>blog</span></h3>
+
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+
+          <a href="#">Blog</a>
+
+          <a href="#">Pricing</a>
+
+          <a href="#">About</a>
+
+          <a href="#">Faq</a>
+
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">meta Company Name © 2015</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:support@company.com"> support@meta company.com</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
+          euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer copy right section end -->
+    <script src="technology.js"></script>
+  </body>
+</html>
